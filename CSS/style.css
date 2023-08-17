@@ -1,0 +1,70 @@
+#Home{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.291),rgba(255, 0, 0, 0.41)),url("../assets/events-heavenly-header\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 100vh;
+}
+.sidebar{
+    height: 100vh;
+    background: #000;
+    width: 0px;
+    overflow: hidden;
+}
+li a{
+    transition:color 0.5s ;
+}
+li:hover a{
+    color: rgba(214, 46, 51 , 0.4) !important;
+}
+.close {
+    color:white;
+}
+.close:hover {
+    color: rgba(214, 46, 51 , 0.4) ;
+}
+.bg-head{
+    background-color: rgba(214, 46, 51 , 0.4);
+}
+.bg-hea{
+    color: rgba(214, 46, 51 , 0.4);
+}
+.content{
+    display: none;
+    background-color: #ccc;
+    padding: 20px;
+}
+.counter{
+    background-image:linear-gradient(rgba(255, 0, 0, 0.291),rgba(255, 0, 0, 0.41)), url("../assets/invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.item{
+    width: 80%;
+    margin: auto;
+    border: 2px white solid;
+}
+.iconItem{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+}
+.iconItem:hover{
+    
+    border: 1px solid rgba(255, 0, 0, 0.761);
+
+    color: white;
+    background-color: rgba(255, 0, 0, 0.761);
+}
+.head1 , .head2 , .head3 , .head4{
+    cursor: pointer;
+}
+:root{
+    scroll-behavior: auto;
+}
